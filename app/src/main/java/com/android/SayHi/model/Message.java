@@ -1,6 +1,7 @@
-package com.android.virgilsecurity.virgilback4app.model;
+package com.android.SayHi.model;
 
-import com.android.virgilsecurity.virgilback4app.util.Const;
+
+import com.android.SayHi.util.Const;
 import com.parse.ParseClassName;
 import com.parse.ParseObject;
 

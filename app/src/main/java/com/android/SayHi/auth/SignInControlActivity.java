@@ -1,4 +1,5 @@
-package com.android.virgilsecurity.virgilback4app.auth;
+package com.android.SayHi.auth;
+
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,11 +9,11 @@ import android.support.annotation.StringDef;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 
-import com.android.virgilsecurity.virgilback4app.R;
-import com.android.virgilsecurity.virgilback4app.base.BaseActivity;
-import com.android.virgilsecurity.virgilback4app.chat.contactsList.ThreadsListActivity;
-import com.android.virgilsecurity.virgilback4app.util.Utils;
-import com.android.virgilsecurity.virgilback4app.util.customElements.OnFinishTimer;
+import com.android.SayHi.base.BaseActivity;
+import com.android.SayHi.chat.contactsList.ThreadsListActivity;
+import com.android.SayHi.util.Utils;
+import com.android.SayHi.util.customElements.OnFinishTimer;
+import com.android.virgilsecurity.SayHi.R;
 import com.parse.ParseUser;
 
 /**

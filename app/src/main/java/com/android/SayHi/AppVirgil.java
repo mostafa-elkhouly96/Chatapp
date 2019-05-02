@@ -1,10 +1,12 @@
-package com.android.virgilsecurity.virgilback4app;
+package com.android.SayHi;
+
 
 import android.app.Application;
 
-import com.android.virgilsecurity.virgilback4app.model.ChatThread;
-import com.android.virgilsecurity.virgilback4app.model.Message;
-import com.android.virgilsecurity.virgilback4app.util.InfoHolder;
+import com.android.SayHi.model.ChatThread;
+import com.android.SayHi.model.Message;
+import com.android.SayHi.util.InfoHolder;
+import com.android.virgilsecurity.SayHi.R;
 import com.parse.Parse;
 import com.parse.ParseObject;
 

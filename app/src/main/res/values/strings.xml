@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">VirgilBack4App</string>
+    <string name="app_name">SayHI Chat</string>
 
     <!-- Back4App -->
     <string name="back4app_server_url">https://parseapi.back4app.com/</string>
-    <string name="back4app_live_query_url">wss://yourSubdomainName.back4app.io/</string>
-    <string name="back4app_app_id">your_back4app_app_id</string>
-    <string name="back4app_client_key">your_back4app_client_key</string>
+    <string name="back4app_live_query_url">wss://virgilmessenger.back4app.io/</string>
+    <string name="back4app_app_id">2D33lNcAZGWuJorBfjJjtkmsCUG0nYaf7yBI4Hgy</string>
+    <string name="back4app_client_key">1O9IgOM4Zlk0KuNZtaA3K5ycUWXHYLO5rnULTGYw</string>
 
     <!-- General -->
     <string name="no_internet">Please, check your internet state</string>
@@ -24,8 +24,8 @@
 
     <!-- Threads List Screen -->
     <string name="contacts">Contacts</string>
-    <string name="no_threads">No conversations yet.\nYou can start new conversation\nfrom navigation drawer.</string>
-    <string name="create_thread">Create thread</string>
+    <string name="no_threads">No conversations yet.\nYou can start new conversation.</string>
+    <string name="create_thread">Create Chat</string>
     <string name="enter_username">Enter username to start chat with</string>
     <string name="creating_thread">Creating thread…</string>
     <string name="no_chat_with_yourself">No chats with yourself, please</string>
@@ -33,6 +33,10 @@
     <!-- Drawer -->
     <string name="new_chat">New Conversation</string>
     <string name="log_out">Log out</string>
-    <string name="no_messages">No messages yet.\nBut You can fix it (:</string>
+    <string name="no_messages">No messages yet.\nBut You can start a convo (:</string>
+
+
+    <string name="virgil_token">AT.165e0c7b95ad59423ec0fffeac66ee1c0b4dab581c212cd81aa0ffa5ca70bb6f</string>
+    <string name="virgil_app_id">1c556c7d9f9e98abed28dcc9af8cb713313179cd8090c1dc1f3a4907493374bb</string>
 
 </resources>

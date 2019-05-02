@@ -1,4 +1,5 @@
-package com.android.virgilsecurity.virgilback4app.chat.contactsList;
+package com.android.SayHi.chat.contactsList;
+
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,8 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.android.virgilsecurity.virgilback4app.R;
-import com.android.virgilsecurity.virgilback4app.model.ChatThread;
+import com.android.SayHi.model.ChatThread;
+import com.android.virgilsecurity.SayHi.R;
 import com.parse.ParseUser;
 
 import java.util.ArrayList;

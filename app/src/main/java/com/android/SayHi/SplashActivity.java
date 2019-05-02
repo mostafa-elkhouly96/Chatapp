@@ -1,10 +1,11 @@
-package com.android.virgilsecurity.virgilback4app;
+package com.android.SayHi;
+
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.android.virgilsecurity.virgilback4app.auth.SignInControlActivity;
-import com.android.virgilsecurity.virgilback4app.chat.contactsList.ThreadsListActivity;
+import com.android.SayHi.auth.SignInControlActivity;
+import com.android.SayHi.chat.contactsList.ThreadsListActivity;
 import com.parse.ParseUser;
 
 public class SplashActivity extends AppCompatActivity {

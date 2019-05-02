@@ -1,4 +1,5 @@
-package com.android.virgilsecurity.virgilback4app.chat.contactsList;
+package com.android.SayHi.chat.contactsList;
+
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -9,15 +10,15 @@ import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.widget.TextView;
 
-import com.android.virgilsecurity.virgilback4app.R;
-import com.android.virgilsecurity.virgilback4app.auth.SignInControlActivity;
-import com.android.virgilsecurity.virgilback4app.base.BaseActivityWithPresenter;
-import com.android.virgilsecurity.virgilback4app.chat.thread.ChatThreadActivity;
-import com.android.virgilsecurity.virgilback4app.model.ChatThread;
-import com.android.virgilsecurity.virgilback4app.util.Const;
-import com.android.virgilsecurity.virgilback4app.util.Utils;
-import com.android.virgilsecurity.virgilback4app.util.customElements.CreateThreadDialog;
-import com.android.virgilsecurity.virgilback4app.util.customElements.OnFinishTimer;
+import com.android.SayHi.auth.SignInControlActivity;
+import com.android.SayHi.base.BaseActivityWithPresenter;
+import com.android.SayHi.chat.thread.ChatThreadActivity;
+import com.android.SayHi.model.ChatThread;
+import com.android.SayHi.util.Const;
+import com.android.SayHi.util.Utils;
+import com.android.SayHi.util.customElements.CreateThreadDialog;
+import com.android.SayHi.util.customElements.OnFinishTimer;
+import com.android.virgilsecurity.SayHi.R;
 import com.parse.ParseUser;
 
 import java.util.List;

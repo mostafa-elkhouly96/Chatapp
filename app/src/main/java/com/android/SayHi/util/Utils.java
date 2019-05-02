@@ -1,4 +1,4 @@
-package com.android.virgilsecurity.virgilback4app.util;
+package com.android.SayHi.util;
 
 import android.app.FragmentTransaction;
 import android.content.Context;
@@ -9,8 +9,11 @@ import android.util.Log;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.android.virgilsecurity.virgilback4app.R;
+import com.android.virgilsecurity.SayHi.R;
 import com.parse.ParseException;
+import com.virgilsecurity.sdk.client.exceptions.VirgilKeyIsAlreadyExistsException;
+import com.virgilsecurity.sdk.client.exceptions.VirgilKeyIsNotFoundException;
+import com.virgilsecurity.sdk.crypto.exceptions.KeyEntryNotFoundException;
 
 import retrofit2.HttpException;
 
@@ -100,6 +103,12 @@ public class Utils {
                 default:
                     return "Oops.. Something went wrong ):";
             }
+        } else if (t instanceof VirgilKeyIsNotFoundException) {
+            return "Username is not registered yet";
+        } else if (t instanceof VirgilKeyIsAlreadyExistsException) {
+            return "Username is already registered. Please, try another one.";
+        } else if (t instanceof KeyEntryNotFoundException) {
+            return "Username is not found on this device. Maybe you deleted your private key";
         } else {
             return "Something went wrong";
         }

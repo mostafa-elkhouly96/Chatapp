@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.virgilsecurity.virgilback4app">
+    package="com.android.virgilsecurity.SayHi">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".AppVirgil"
+        android:name="com.android.SayHi.AppVirgil"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".SplashActivity"
+            android:name="com.android.SayHi.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
 
@@ -27,15 +27,15 @@
         </activity>
 
         <activity
-            android:name=".auth.SignInControlActivity"
+            android:name="com.android.SayHi.auth.SignInControlActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize|stateHidden" />
 
         <activity
-            android:name=".chat.thread.ChatThreadActivity"
+            android:name="com.android.SayHi.chat.thread.ChatThreadActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".chat.contactsList.ThreadsListActivity"
+            android:name="com.android.SayHi.chat.contactsList.ThreadsListActivity"
             android:screenOrientation="portrait" />
     </application>
 

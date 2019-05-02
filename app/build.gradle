@@ -3,8 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.android.virgilsecurity.virgilback4app"
-        minSdkVersion 17
+        applicationId 'com.android.SayHi'
+        minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -22,10 +22,12 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    productFlavors {
+    }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     // Support libraries
     implementation "com.android.support:appcompat-v7:$rootProject.ext.supportLibrary"
@@ -55,4 +57,7 @@ dependencies {
     // Back4App
     implementation "com.parse:parse-android:$rootProject.ext.back4appCore"
     implementation 'com.parse:parse-livequery-android:1.0.4'
+    implementation "com.virgilsecurity.sdk:crypto-android:$rootProject.ext.virgilSecurity"
+    implementation "com.virgilsecurity.sdk:sdk-android:$rootProject.ext.virgilSecurity"
+    implementation 'org.jetbrains:annotations:15.0'
 }

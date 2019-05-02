@@ -1,13 +1,14 @@
-package com.android.virgilsecurity.virgilback4app.chat.thread;
+package com.android.SayHi.chat.thread;
+
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import com.android.virgilsecurity.virgilback4app.R;
-import com.android.virgilsecurity.virgilback4app.base.BaseActivity;
-import com.android.virgilsecurity.virgilback4app.model.ChatThread;
-import com.android.virgilsecurity.virgilback4app.util.Utils;
+import com.android.SayHi.base.BaseActivity;
+import com.android.SayHi.model.ChatThread;
+import com.android.SayHi.util.Utils;
+import com.android.virgilsecurity.SayHi.R;
 import com.parse.ParseUser;
 
 import butterknife.BindView;

@@ -1,8 +1,9 @@
-package com.android.virgilsecurity.virgilback4app.chat.contactsList;
+package com.android.SayHi.chat.contactsList;
+
 
 import android.os.Bundle;
 
-import com.android.virgilsecurity.virgilback4app.util.RxParse;
+import com.android.SayHi.util.RxParse;
 import com.parse.ParseUser;
 
 import nucleus5.presenter.RxPresenter;

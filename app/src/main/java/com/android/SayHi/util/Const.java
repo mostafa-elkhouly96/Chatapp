@@ -1,4 +1,4 @@
-package com.android.virgilsecurity.virgilback4app.util;
+package com.android.SayHi.util;
 
 /**
  * Created by Danylo Oliinyk on 11/23/17 at Virgil Security.

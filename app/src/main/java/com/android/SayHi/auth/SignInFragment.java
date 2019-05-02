@@ -1,9 +1,11 @@
-package com.android.virgilsecurity.virgilback4app.auth;
+package com.android.SayHi.auth;
 
 import android.os.Bundle;
 
-import com.android.virgilsecurity.virgilback4app.R;
-import com.android.virgilsecurity.virgilback4app.base.BaseFragment;
+import com.android.SayHi.base.BaseFragment;
+import com.android.virgilsecurity.SayHi.R;
+
+;
 
 /**
  * Created by Danylo Oliinyk on 16.11.17 at Virgil Security.

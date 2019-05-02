@@ -1,4 +1,5 @@
-package com.android.virgilsecurity.virgilback4app.auth;
+package com.android.SayHi.auth;
+
 
 import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
@@ -9,10 +10,10 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
 
-import com.android.virgilsecurity.virgilback4app.R;
-import com.android.virgilsecurity.virgilback4app.base.BaseFragmentWithPresenter;
-import com.android.virgilsecurity.virgilback4app.util.UsernameInputFilter;
-import com.android.virgilsecurity.virgilback4app.util.Utils;
+import com.android.SayHi.base.BaseFragmentWithPresenter;
+import com.android.SayHi.util.UsernameInputFilter;
+import com.android.SayHi.util.Utils;
+import com.android.virgilsecurity.SayHi.R;
 import com.parse.ParseUser;
 
 import java.util.Locale;

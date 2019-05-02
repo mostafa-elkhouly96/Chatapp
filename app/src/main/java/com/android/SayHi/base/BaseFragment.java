@@ -1,4 +1,4 @@
-package com.android.virgilsecurity.virgilback4app.base;
+package com.android.SayHi.base;
 
 import android.app.Activity;
 import android.content.Context;

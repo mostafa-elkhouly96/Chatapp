@@ -44,4 +44,5 @@ ext {
     nucleus = "7.0.0"
     back4appCore = "1.16.3"
     back4appLiveQuery = "1.0.3"
+    virgilSecurity = "4.5.0@aar"
 }
